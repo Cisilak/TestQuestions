@@ -1,10 +1,10 @@
 public class LargetsTwoNumbers {
     public static void main(String[] args) {
 
-        int[] nums = {10,5,38,9};
+        int[] nums = {100,5,38,9};
 
-        int firstMax = nums[0];
-        int secondMax = nums[0];
+        int firstMax = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE;
 
         for (int num: nums) {
             if(num > firstMax){
