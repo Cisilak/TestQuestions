@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
-public class NumberOfDigits {
+public class
+NumberOfDigits {
     public static void main(String[] args) {
         int a = 1234567;
 //1st way

@@ -60,16 +60,11 @@ public class Converting2DimArrayTo1 {
                 }
                 else if(x>secondMax){
                     secondMax=x;
-
                 }
-
             }
         }
         System.out.println(max);
         System.out.println(secondMax);
-
-
-
     }
 }
 
