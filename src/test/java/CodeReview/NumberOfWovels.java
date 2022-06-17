@@ -13,7 +13,9 @@ public class NumberOfWovels {
         list.add('i');
         list.add('u');
         list.add('o');
+
         int count=0;
+
         for (int i=0; i<str.length(); i++){
             if (list.contains(str.charAt(i))){
                 count++;

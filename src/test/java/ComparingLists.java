@@ -23,6 +23,7 @@ public class ComparingLists {
 //            }
 //            System.out.println(false);
 
+
         if (list1.contains(3) && list2.contains(3)) {
 
             System.out.println(true);

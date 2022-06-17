@@ -14,7 +14,7 @@ public class RemoveDublicates {
                 s1=s1+str.substring(i, i+1);
             }
         }
-        System.out.println("s1"+s1);
+        System.out.println("s1: "+s1);
 
         char [] ch = str.toCharArray();
         StringBuilder sb = new StringBuilder();
@@ -34,7 +34,7 @@ public class RemoveDublicates {
 
         for (int i=0; i<str.length(); i++){
             char ch2 = str.charAt(i);
-            if(str.indexOf(str.charAt(i))==str.lastIndexOf(ch2)){
+            if(str.indexOf(ch2)==str.lastIndexOf(ch2)){
                 System.out.print(ch2);
             }
         }

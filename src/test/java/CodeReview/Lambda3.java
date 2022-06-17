@@ -12,6 +12,8 @@ public class Lambda3 {
         }
         System.out.println(sum);
 
+        System.out.println(IntStream.rangeClosed(3,5).reduce(1, Math::multiplyExact));
+
 //  int sum =   IntStream.rangeClosed(7,9).reduce(0, Math::addExact);
 //        System.out.println(sum);
     }

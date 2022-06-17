@@ -1,15 +1,17 @@
+package CodeReview;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ConvertArrayListToArray {
+public class ArrayListToAray {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();
         list.add("alicanali");
         list.add("veli");
         list.add("canali");
-    System.out.println(list);
-      String [] arr = new String [list.size()];
+        System.out.println(list);
+        String [] arr = new String [list.size()];
 //
 //        arr = list.toArray(arr);
 //        System.out.println(Arrays.toString(arr));
@@ -31,7 +33,6 @@ public class ConvertArrayListToArray {
             }
         }
         System.out.println(longest);
-
 
 
     }
